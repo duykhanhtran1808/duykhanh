@@ -7,9 +7,11 @@ int main() {
 	int caoNhat;
 	int thapNhat;
 	
-	printf("Xin moi nhap 3 so (so nguyen)\n");
+	printf("Xin moi nhap so thu 1 (so nguyen)\n");
 	scanf("%d",&x);
+	printf("Xin moi nhap so thu 2 (so nguyen)\n");
 	scanf("%d",&y);
+	printf("Xin moi nhap so thu 3 (so nguyen)\n");
 	scanf("%d",&z);
 
 	if(x > y) {
