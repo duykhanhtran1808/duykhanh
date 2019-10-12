@@ -2,14 +2,21 @@
 int main() {
 	int a = 1;
 	int b = 1;
-	int temp;
+	int c = 2;
+	int n;
+	printf("Nhap n: ");
+	scanf("%d",&n);
 	printf("1: %d \n",a);
 	printf("2: %d \n",b);
-	for(int i = 3; i<=20;i++) {
-		temp = a;
-		a += b;
-		b = temp;
-		printf("%d: %d \n",i,a);
+	printf("3: %d \n",c);
+
+	
+	
+	for(int i = 4; n >= c ;i++) {
+		a=b;
+		b=c;
+		c=a+b;
+		printf("%d: %d \n",i,c);
 	}
 	return 0;
 }
