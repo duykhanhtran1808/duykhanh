@@ -1,4 +1,4 @@
-#include <stdio.h>
+7#include <stdio.h>
 int main(){
 	int a[10];
 	int temp;
@@ -18,7 +18,5 @@ int main(){
 			printf("%d ",a[i]);
 		}
 	}
-	
-	
 	return 0;
 }

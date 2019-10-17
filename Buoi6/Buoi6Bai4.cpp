@@ -18,7 +18,5 @@ int main(){
 		nghichdao = (double) 1/a[i];
 			printf("%lf ",nghichdao);
 	}
-	
-	
 	return 0;
 }
