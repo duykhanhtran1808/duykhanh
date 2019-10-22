@@ -13,15 +13,12 @@ int main(){
 	int cnt = 0;
 	
 	for(int i = 0;i<n; i++){
-		if(a[i] %2 != 0 && i % 2 ==0){
+		if(a[i] %2 != 0 && i % 2 !=0){
 			sum += a[i];
 			cnt++;
 		}
 	}
 	double tb = (double) sum/ cnt;
 	printf("Trung binh cac so le o vi tri chan la %lf",tb);
-	
-	
-	
 	return 0;
 }

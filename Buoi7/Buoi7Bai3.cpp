@@ -13,8 +13,6 @@ int main(){
 		if(a[i] < 0){
 			a[i] = 0;
 		}
-	}
-	for(int i = 0; i < n; i++){
 		printf(" so thu %d  la %d\n",(i+1),a[i]);
 	}
 

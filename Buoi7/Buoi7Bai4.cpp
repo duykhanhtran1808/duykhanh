@@ -9,16 +9,16 @@ int main(){
 	printf("Moi nhap so thu %d \n",(i+1));
 	scanf("%d",&a[i]);
 	if(i > 0){
-		bool check;
+		bool check = false;
+		
 		for(int j = 0; j < i; j++){
 			if(a[i] == a[j]){
-				check = false;
-				break;
-			} else {
 				check = true;
-			}
+				break;
+			} 
 		}
-		if(check == false){
+		
+		if(check){
 			i--;
 		}
 	}

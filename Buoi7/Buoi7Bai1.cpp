@@ -9,11 +9,11 @@ int main() {
 		printf("Moi nhap so thu %d \n",(i+1));
 		scanf("%d",&a[i]);
 	}
-	double sum = 0;
+	double sum = 0;     
 	int cnt = 0;
 	for(int i = 0; i<n; i++){
 		if(a[i] % 2 != 0) {
-			sum += a[i];
+			sum += a[i];  
 			cnt++;
 		}
 	}
