@@ -10,7 +10,10 @@ int main(){
 	scanf("%d",&a[i]);
 	if(i > 0){
 		bool check = false;
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 6195dfc9b7c3d06f67fa6452f608a5f342dd650e
 		for(int j = 0; j < i; j++){
 			if(a[i] == a[j]){
 				check = true;
