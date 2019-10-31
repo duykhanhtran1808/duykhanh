@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-	int year = 0;
-	double rate = 0, capitalsum = 0, interest = 0;
+	int year;
+	double rate, capitalsum, interest;
 	printf("Moi nhap so von gui (> 0) \n");
 	scanf("%lf",&capitalsum);
 	printf("Moi nhap so nam gui tien (> 0) \n");
